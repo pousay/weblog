@@ -14,8 +14,8 @@ let initState = {
     },
     2: {
         "id": 2,
-        "firstName": "سامان",
-        "lastName": "شاهی"
+        "firstName": "محمدرضا",
+        "lastName": "رجبلو"
     },
     3: {
         "id": 3,
