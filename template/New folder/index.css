@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+}
+
+.cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    gap: 140px;
+}
+
+.cont .box::before {
+    content: '';
+    position: absolute;
+    inset: -45px 20px;
+    border-top: 4px solid var(--clr);
+    border-bottom: 4px solid var(--clr);
+    z-index: 0;
+    transform: skewY(15deg);
+    transition: 0.5s ease-in-out;
+}
+
+.cont .box:hover::before {
+    transform: skewY(0deg);
+    inset: -10px 100px;
+}
+
+
+.cont .box::after {
+    content: '';
+    position: absolute;
+    inset: 120px -25px;
+    border-left: 4px solid var(--clr);
+    border-right: 4px solid var(--clr);
+    z-index: 0;
+    transform: skewX(15deg);
+    transition: 0.5s ease-in-out;
+}
+
+.cont .box:hover::after {
+    transform: skewY(0deg);
+    inset: 10px -10px;
+}
+
+.cont .box {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont .box .tent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.cont .box .tent .iconn {
+    color: var(--clr);
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 6px var(--clr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #2e2e2e;
+    transition: 0.5s ease-in-out;
+}
+
+.cont .box:hover .tent .iconn {
+    background-color: var(--clr);
+    color: #2e2e2e;
+    box-shadow: 0 0 0 4px #2e2e2e, 0 0 0 300px var(--clr);
+
+}
+
+
+.cont .box .tent .text {
+    font-size: 1.3em;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+
+.cont .box .tent .text h3 {
+    transition: 0.5s ease-in-out;
+}
+
+.cont .box:hover .tent .text h3 {
+    color: #2e2e2e;
+    transition: 0.5s ease-in-out;
+}
+
+.cont .box .tent .text p {
+    color: #777;
+    transition: 0.5s ease-in-out;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.cont .box:hover .tent .text p {
+    color: #2e2e2e;
+}
+
+
+.cont .box .tent a {
+    position: relative;
+    background-color: var(--clr);
+    color: #2e2e2e;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.cont .box:hover .tent a {
+    background-color: #2e2e2e;
+    color: var(--clr);
+    cursor: pointer;
+}
