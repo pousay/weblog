@@ -9,7 +9,7 @@ function Footer() {
                         <div className="col-md-4 col-12">
                             <p className="fs-3 pe-2 p-0 yellow"> دسترسی سریع </p>
                             <div className="f d-grid">
-                                <a href="/" className="text-break text-muted">صفحه اصلی</a>
+                                <a href="/weblog" className="text-break text-muted">صفحه اصلی</a>
                                 <a href="/posts" className="text-break text-muted">پست ها</a>
                                 <a href="/users" className="text-break text-muted">کاربران</a>
                             </div>
