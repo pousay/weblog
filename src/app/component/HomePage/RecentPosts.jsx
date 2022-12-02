@@ -23,7 +23,7 @@ function RecentPosts() {
 
                 <p>{post.content.substring(0, 100)}...</p>
             </div>
-            <Link to={`/posts/${post.id}`}>READ MORE</Link>
+            <Link to={`/posts/${post.id}`}>مشاهده بیشتر</Link>
         </div>
     </div>)
 
