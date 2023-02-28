@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/weblog/static/css/main.17701513.css",
+    "main.js": "/weblog/static/js/main.985282dc.js",
+    "static/media/Gandom.ttf": "/weblog/static/media/Gandom.f619adefd7b1baeaeb92.ttf",
+    "static/media/Tanha.ttf": "/weblog/static/media/Tanha.153f40cbdccaa0d6790d.ttf",
+    "index.html": "/weblog/index.html",
+    "main.17701513.css.map": "/weblog/static/css/main.17701513.css.map",
+    "main.985282dc.js.map": "/weblog/static/js/main.985282dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17701513.css",
+    "static/js/main.985282dc.js"
+  ]
+}
